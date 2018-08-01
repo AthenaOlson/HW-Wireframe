@@ -1,0 +1,32 @@
+body {
+    background-color: #777;
+}
+/*
+.container {
+    width: 960px;
+    margin: auto;
+}
+*/
+.box-head {
+    width: 960px;
+    margin: auto;
+    background-color: #ebebeb;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.box-nav {
+    width: 960px;
+    margin: auto;
+    background-color: #ebebeb;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
