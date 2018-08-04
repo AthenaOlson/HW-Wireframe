@@ -1,32 +1,109 @@
 body {
     background-color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
 }
-/*
+/* i started with this...
 .container {
     width: 960px;
     margin: auto;
 }
 */
-.box-head {
+header {
     width: 960px;
-    margin: auto;
+    margin: 20px;
     background-color: #ebebeb;
-    font-family: Arial, Helvetica, sans-serif;
     color: #777;
-    font-size: 18px;
-    text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.box-nav {
+#nav {
     width: 960px;
-    margin: auto;
+    margin: 20px;
     background-color: #ebebeb;
-    font-family: Arial, Helvetica, sans-serif;
     color: #777;
-    font-size: 18px;
-    text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+#section {
+    width: 550px;
+    background-color: #ebebeb;
+    color: #777;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 225px;
+    padding-top: 25px;
+    position: absolute;
+
+}
+
+#article {
+    color: #ebebeb;
+    background-color: #777;
+    position: absolute;
+    float: left;
+    margin-top: 65px;
+    margin-left: 45px;
+    height: 150px;
+    width: 500px;
+    padding-top: 10px;
+    z-index: 1;
+}
+#headers {
+    clear: both;
+    background-color: #ebebeb;
+    color: #777;
+    position: absolute;
+    float: left;
+    height: 20px;
+    width: 470px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    z-index: 2;
+    
+}
+
+#p {
+    background-color: #ebebeb;
+    color: #777;
+    clear: both;
+    position: relative;
+    float: left;
+    height: 20px;
+    width: 470px;
+    margin-top: 160px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    z-index: 3;
+}
+#aside {
+    background-color: #ebebeb;
+    color: #777;
+    float: left;
+    margin-left: 65px;
+    margin-bottom: 20px;
+    padding-top: 25px;
+    height: 225px;
+    width: 385px;
+}
+
+footer {
+    clear: both;
+    background-color: #ebebeb;
+    color: #777;
+    width: 960px;
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
 }
